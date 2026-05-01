@@ -21,120 +21,82 @@
                     <h1>Peyment form example</h1>
                 </div>
             <div class="row m-auto">
-                <div class="col-12 col-lg-12">
+                <div class="col-12 col-md-8 col-lg-6">
                         <div class="reyn pt-3 ps-3 pb-1 mt-3 align-items-center">
                             <p>Some fields are missing</p>
                         </div>
                 </div>
                 <div class ="row">
-                        <div class="col-12 col-lg-12 d-flex pt-3">
-                            <div class ="col-5 caj3">
-                                <span>Card</span>
+                        <div class="col-12 col-lg-12 d-flex flex-column flex-sm-row pt-3">
+                            <div class ="col-12 col-lg-5 col-md-5 mt-2 caj3">
+                                <label>Card</label>
+                                <input type="text" placeholder="xxxxxxxxxxxxxxxxxxxx" class="form-control w-80">
                             </div>
-                            <div class ="col-3 caj3">
-                                <span>CVC #</span>
+                            <div class ="col-12 col-lg-3 col-md-3  mt-2 caj3">
+                                <label>CVC #</label>
+                                <input type="text" placeholder="00000000" class="form-control w-80"></label>
                             </div>
-                            <div class ="col-4 caj3">
-                                <span>Amount</span>
-                            </div>
-                        </div>
-                </div>
-                <div class ="row">
-                        <div class="col-12 col-lg-12 d-flex">
-                            <div class ="col-5 caj3">
-                                <span><input type="text" placeholder="xxxxxxxxxxxxxxxxxxxx" class="form-control w-75"></span>
-                            </div>
-                            <div class ="col-3 caj3 d-flex" >
-                                <span><input type="text" placeholder="00000000" class="form-control w-60"></span>
-                            </div>
-                            <div class ="col-4 caj3 d-flex">
-                                <span>$</span><input type="text" placeholder="Ammount" class="form-control w-70">
+                            <div class ="col-12 col-lg-4 col-md-4  mt-2 caj3">
+                                <label>Amount $</label>
+                                <input type="text" placeholder="Ammount" class="form-control w-80">
                             </div>
                         </div>
                 </div>
                 <div class ="row">
-                        <div class="col-12 col-lg-12 d-flex pt-3">
-                            <div class ="col-6 caj3">
-                                <span>First Name</span>
+                        <div class="col-12 col-lg-12 d-flex flex-column flex-sm-row pt-3">
+                            <div class ="col-6 col-lg-6 col-md-6  mt-2 caj3">
+                                <label>First Name</label>
+                                <input type="text" class="form-control w-80">
                             </div>
-                            <div class ="col-6 caj3">
-                                <span>Last Name</span>
-                            </div>
-                        </div>
-                </div>
-                <div class ="row">
-                        <div class="col-12 col-lg-12 d-flex">
-                            <div class ="col-5 caj3">
-                                <span><input type="text" class="form-control"></span>
-                            </div>
-                            <div class="col-1"></div>                          
-                            <div class ="col-6 caj3">
-                                <span><input type="text" class="form-control w-90"></span>
+                            <div class ="col-6 col-lg-6 col-md-6  mt-2 caj3">
+                                <label>Last Name</label>
+                                <input type="text" class="form-control w-80">
                             </div>
                         </div>
                 </div>
                 <div class ="row">
-                        <div class="col-12 col-lg-12 d-flex pt-3">
-                            <div class ="col-6 caj3">
-                                <span>City</span>
+                        <div class="col-12 col-lg-12 d-flex flex-column flex-sm-row pt-3">
+                            <div class ="col-6 col-lg-6 col-md-6  mt-2">
+                                <label>City</label>
+                                <input type="text" class="form-control w-75">
                             </div>
-                            <div class ="col-3 caj3">
-                                <span>Stade</span>
+                            <div class ="col-3 col-lg-3 col-md-3  mt-2 caj3">
+                                <label>Stade</label>
+                                <select class="form-control w-75"></select>
                             </div>
-                            <div class ="col-3 caj3">
-                                <span>Postal Code</span>
-                            </div>
-                        </div>
-                </div>
-                <div class ="row">
-                        <div class="col-12 col-lg-12 d-flex">
-                            <div class ="col-6 caj3">
-                                <input type="text" class="form-control w-75">                          
-                            </div>
-                            <div class ="col-3 caj3">
-                                <select class="form-control w-75"></select> 
-                            </div>
-                            <div class ="col-3 caj3">
+                            <div class ="col-3 col-lg-3 col-md-3  mt-2 caj3">
+                                <label>Postal Code</label>
                                 <input type="text" class="form-control w-100">
                             </div>
                         </div>
-                </div>
+           
                <div class ="row">
-                        <div class="col-12 col-lg-12 d-flex pt-3">
-                            <div class ="col-6 caj3">
-                                <span>We accept</span>
-                            </div>
-                            <div class ="col-6 caj3">
-                                <span>Message</span>
-                            </div>
-                        </div>
-                </div>
-                </div class ="row">
-                        <div class="col-12 col-lg-12 d-flex">
-                            <div class ="col-6 col-lg-6 caj3 align-items-center">
-                                <div class="form-control w-50" >
+                        <div class="col-12 col-lg-12 d-flex flex-column flex-sm-row pt-3">
+                            <div class ="col-6 col-lg-6 col-md-6 caj3">
+                                <label>We accept</label>
+                                <div class ="col-6 col-lg-6 caj3 align-items-center w-100">
+                                <div class="form-control" >
                                     <div class=" col-6 col-lg-6 caj4 d-flex p-3 mt-2 me-2 mb-2 form-control">
-                                        <input type="radio"><i class="fa-brands fa-cc-mastercard pe-4"></i> 
-                                        <input type="radio"><i class="fa-brands fa-cc-visa  pe-4"></i>
-                                        <input type="radio"><i class="fa-brands fa-cc-diners-club pe-4"></i>
-                                        <input type="radio"><i class="fa-brands fa-cc-amex"></i>
+                                        <input type="radio" name ='card' value="master" id = "master"><i class="fa-brands fa-cc-mastercard pe-4"></i> 
+                                        <input type="radio" name ='card' value = "visa" id = 'visa'><i class="fa-brands fa-cc-visa  pe-4"></i>
+                                        <input type="radio" name="card" value = 'club' id = "club"><i class="fa-brands fa-cc-diners-club pe-4"></i>
+                                        <input type="radio" name = 'card' value = 'amex' id = 'amex'><i class="fa-brands fa-cc-amex"></i>
                                     </div>
                                 </div>
                             </div>
-                            <div class ="col-5 caj3">
+                            </div>
+                            <div class ="col-6 col-lg-6 col-md-6 caj3">
+                                <label>Message</label>
                                 <textarea class="form-control w-100"></textarea>
                                 <small>Add any notes here</small>
                             </div>
                         </div>
-                </div>
-        
-    
-            <div class="row">
+
+               <div class="row">
                 <div class="col-12 col-lg-12  d-flex pt-3 justify-content-end">
                     <button type="button" class="btn btn-secondary btn-lg me-3">cancel</button>
                     <button type="button" class="btn btn-primary btn-lg">send</button>
                 </div>
-            </div>
             </div>
         </div>
     
